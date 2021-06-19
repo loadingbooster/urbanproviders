@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".driver">
+    <EditText
+        android:id="@+id/pricedaily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Single day"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/priceweekly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weekly"
+        android:layout_marginBottom="20dp"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/pricemonthly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="Monthly"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@null"
+        app:backgroundTint="@null"
+        android:text="Save" />
+</LinearLayout>

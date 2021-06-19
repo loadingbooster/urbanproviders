@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.www.surakshakavach.accident.detection.help.urbanproviders">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UrbanProviders">
+        <activity android:name=".pest"></activity>
+        <activity android:name=".repair" />
+        <activity android:name=".ro" />
+        <activity android:name=".ac" />
+        <activity android:name=".plumber" />
+        <activity android:name=".carpentar" />
+        <activity android:name=".painter" />
+        <activity android:name=".electrician" />
+        <activity android:name=".maid" />
+        <activity android:name=".driver" />
+        <activity android:name=".homescreen" />
+        <activity android:name=".loginactivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
