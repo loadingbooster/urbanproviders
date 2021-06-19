@@ -30,9 +30,9 @@ public class ac extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ac);
 
-        service = findViewById(R.id.servicecharge);
-        install = findViewById(R.id.installcharge);
-        repair = findViewById(R.id.repaircharge);
+        service = findViewById(R.id.servicechargeac);
+        install = findViewById(R.id.installchargeac);
+        repair = findViewById(R.id.repairchargeac);
         save = findViewById(R.id.savebuttonac);
         DatabaseReference ref = database.getReference("providers/ac");
 

@@ -17,7 +17,7 @@
         android:text="Repair Visit charge" />
 
     <EditText
-        android:id="@+id/repaircharge"
+        android:id="@+id/repairchargero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number" />
@@ -30,7 +30,7 @@
         android:text="Serice Visit Charge" />
 
     <EditText
-        android:id="@+id/servicecharge"
+        android:id="@+id/servicechargero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number" />
@@ -43,14 +43,14 @@
         android:text="Install/Uninstall charge" />
 
     <EditText
-        android:id="@+id/installcharge"
+        android:id="@+id/installchargero"
         android:layout_width="match_parent"
         android:textSize="30sp"
         android:layout_height="wrap_content"
         android:inputType="number" />
 
     <Button
-        android:id="@+id/savebuttonac"
+        android:id="@+id/savebuttonro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Save" />

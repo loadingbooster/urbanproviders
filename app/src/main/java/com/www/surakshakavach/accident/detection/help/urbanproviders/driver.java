@@ -35,10 +35,10 @@ public class driver extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver);
 
-        daily = findViewById(R.id.pricedaily);
-        weekly = findViewById(R.id.priceweekly);
-        monthly = findViewById(R.id.pricemonthly);
-        save = findViewById(R.id.savebutton);
+        daily = findViewById(R.id.pricedailydriver);
+        weekly = findViewById(R.id.priceweeklydriver);
+        monthly = findViewById(R.id.pricemonthlydriver);
+        save = findViewById(R.id.savebuttondriver);
         DatabaseReference ref = database.getReference("providers/driver");
 
         int c;

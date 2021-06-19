@@ -9,21 +9,21 @@
     android:orientation="vertical"
     tools:context=".driver">
     <EditText
-        android:id="@+id/pricedaily"
+        android:id="@+id/pricedailydriver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:hint="Single day"
         android:inputType="number" />
     <EditText
-        android:id="@+id/priceweekly"
+        android:id="@+id/priceweeklydriver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Weekly"
         android:layout_marginBottom="20dp"
         android:inputType="number" />
     <EditText
-        android:id="@+id/pricemonthly"
+        android:id="@+id/pricemonthlydriver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -31,7 +31,7 @@
         android:inputType="number" />
 
     <Button
-        android:id="@+id/savebutton"
+        android:id="@+id/savebuttondriver"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@null"
